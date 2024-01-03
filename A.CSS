@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Sourabh{
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flexbox;
+    justify-content: flex-start;
+}
+
+.Container{
+    width:100%;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Musicplayer{
+    background: rgb(10, 1, 1);
+    width: 400px;
+    padding: 25px 40px;
+    text-align: center;
+    margin-top: -500px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+
+nav .Circle{
+    border-radius: 50% ;
+    width: 40px ;
+    height: 40px;
+    line-height: 40px;
+    background: #fff ;
+    color: green;
+    box-shadow: 0 5px 10px
+}
+
+.Song-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 10px 60px rgb(44, 44, 38);
+}
+
+.Musicplayer h1{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(255, 177, 33);
+    margin-top: 20px;
+}
+
+.Musicplayer p{
+    margin-top: 5px;
+    font-size: 15px ;
+    color: rgb(255, 247, 247) ;
+}
+
+#Progress{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    background: rgb(253, 251, 251);
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 40px 0;
+}
+
+#Progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: rgb(144, 144, 185);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 8px solid rgb(255, 255, 255);
+    box-shadow: 0 5px 5px rgb(227, 227, 221);
+}
+
+.Controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Controls div{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #06f64e;
+    box-shadow: 0 10px 20px rgb(160, 154, 154);
+    cursor: pointer;
+}
+
+.Controls div:nth-child(2){
+    transform : scale(1.5);
+    background: rgb(223, 19, 53);
+    color: white;
+}
+
